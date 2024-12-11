@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Registeration</title>
+</head>
+<body>
+    <h3>All Registeration</h3>
+    <hr>
+    <ul>
+        {% for object in object_list %}
+            <li>First Name : {{object.fname}}</li>
+            <li>Last Name : {{object.lname}}</li>
+            <li>City : {{object.city}}</li>
+            <li>Email : {{object.email}}</li>
+            <hr>
+
+        {% empty %}
+
+        <h4 style="color: red">No Registeration</h4>
+
+        {% endfor %}
+    </ul>
+</body>
+</html>

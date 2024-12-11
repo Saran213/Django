@@ -1,0 +1,15 @@
+#top{
+    border: solid 100px red;
+    width: 25%;
+    text-align: center;
+    padding: 100px;
+    margin-top:300px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+#bottom{
+  border: 100px solid red;
+  width: 25%;
+  text-align: center;
+  padding: 100px;
+}

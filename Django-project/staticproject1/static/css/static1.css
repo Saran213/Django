@@ -1,0 +1,11 @@
+body{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+img{
+    border: 10px groove green;
+    width: 50%;
+    height: 200px;
+    
+}

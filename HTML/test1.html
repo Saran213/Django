@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Demo HTML for django</title>
+    <link rel="stylesheet" href="style1.css"/>
+  </head>
+  <body>
+    <h1>Welcome to Django</h1>
+    <p>This data.</p>
+    <p><b>This data should be bold.</b></p>
+    <p><strong>This data should be bold with strong.</strong></p>
+    <p><strong><i>This data should be bold with strong.</i></strong></p>
+    <p><strong><em>This data should be bold with strong and emphasis tag.</em></strong></p>
+
+    <h2>The available brands are:</h2>
+    <ol>
+      <li>Denim</li>
+      <li>Basics</li>
+      <ul>
+        <li>shirts</li>
+        <li>Jeans pants</li>
+        <li>T-shirts</li>
+        <li>Track pants</li>
+      </ul>
+      <li>Netplay</li>
+      <li>U.S. Polo</li>
+    </ol>
+    <ul>
+      <li>Denim</li>
+      <li>Basics</li>
+      <li>Netplay</li>
+      <li>U.S. Polo</li>
+      <ol>
+        <li>shirts</li>
+        <li>Jeans pants</li>
+        <li>T-shirts</li>
+        <li>Track pants</li>
+      </ol>
+    </ul>
+
+    <!--inserting image-->
+    <h1>Welcome to Avangers world</h1>
+    <h2>We always be children's hero</h2>
+    <img src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/avengersendgame_lob_crd_05.jpg" alt="Image will be uploaded soon">
+
+    <h1>To buy Ipad</h1>
+    <a href="https://amazon.com/s?k=ipad">click here</a>
+
+    <!--div tag to group -->
+    <div>
+      <h1>This is Heading 1</h1>
+      <h2>This is Heading 2</h2>
+      <h3>This is Heading 3</h3>
+      <h1>This is Heading 1</h1>
+    </div>
+    <h1>This is Heading 1</h1>
+    <div>
+      <h1>This is Heading 1</h1>
+      <h2>This is Heading 2</h2>
+      <h3>This is Heading 3</h3>
+      <h1>This is Heading 1</h1>
+    </div>
+
+    <!--span tag is to specify a needed one-->
+    <h1>Don't run behind the <span>Life</span>. Let the <span>Life</span> run behind you</h1>
+
+    <!--table tag-->
+    <h1>Table Creation</h1>
+    <table border="1">
+      <thead>
+        <th>ENO</th>
+        <th>ENAME</th>
+        <th>ESAL</th>
+        <th>EADDR</th>
+      </thead>
+      <tr>
+        <td>212</td>
+        <td>Jack</td>
+        <td>12,00,000</td>
+        <td>Canada</td>
+      </tr>
+      <tr>
+        <td>313</td>
+        <td>Jef</td>
+        <td>10,00,000</td>
+        <td>Mexico</td>
+      </tr>
+      <tr>
+        <td>414</td>
+        <td>Kalam</td>
+        <td>12,00,00,000</td>
+        <td>Tamilnadu</td>
+      </tr>
+      <tr>
+        <td>515</td>
+        <td>Rahman</td>
+        <td>10,00,00,000</td>
+        <td>Tamilnadu</td>
+      </tr>
+    </table>
+
+    <!--Form tag-->
+    <h1>Form tag</h1>
+    <form action="result.html">
+      <h1>value attribute</h1>
+      Username:<input type="text" name="" value="Enter Username" required>
+      Password:<input type="password" name="" value="Enter password" required>
+      <h1>label attribute</h1>
+      <label for="user">Enter name</label>
+      <input id="user" type="text" name="" value="">
+      <h1>placeholder attribute</h1>
+      Username:<input type="text" name="" placeholder="Enter Username" required>
+      Password:<input type="password" name="" placeholder="Enter password" required><br>
+      <label for="m">Male</label>
+      <input id="m" type="radio" name="gender" value="Male"><br>
+      <label for="fm">Female</label>
+      <input id="fm" type="radio" name="gender" value="Female"><br>
+      <label for="tg">Transgender</label>
+      <input id="tg" type="radio" name="gender" value="Transgender"><br>
+
+      <!--dropdown box-->
+      <h1>Dropdown</h1>
+      Select Qualification:
+      <select class="" name="Qualification" multiple>
+        <option value="default">Select Qualification</option>
+        <option value="10th">10th</option>
+        <option value="12th">12th</option>
+        <option value="BE">BE</option>
+        <option value="Bsc">Bsc</option>
+      </select><br>
+
+      <!--Checkbox-->
+      Known languages:<br>
+      <input type="checkbox" name="language" value="Tamil" checked>Tamil
+      <input type="checkbox" name="language" value="English">English
+      <input type="checkbox" name="language" value="Telugu">Telugu
+      <input type="checkbox" name="language" value="Malayalam">Malayalam<br>
+
+      <!--Textarea-->
+      Enter your feedback:<br>
+      <textarea name="feedback" rows="8" cols="80"></textarea><br>
+      <input type="submit" name="" value="Login with feedback">
+    </form>
+  </body>
+</html>>

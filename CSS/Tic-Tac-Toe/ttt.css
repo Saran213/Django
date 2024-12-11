@@ -1,0 +1,22 @@
+table{
+  background: green;
+  margin: auto;
+}
+td{
+  height: 200px;
+  width: 200px;
+}
+#lr{
+  border-left: red solid 5px;
+  border-right: red solid 5px;
+}
+.tb{
+  border-top: red solid 5px;
+  border-bottom: red solid 5px;
+}
+h1{
+  text-align: center;
+}
+td:hover{
+  border: 3px groove blue;
+}

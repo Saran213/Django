@@ -1,0 +1,12 @@
+body{
+  background: url("https://image.shutterstock.com/image-vector/background-scene-red-barn-on-260nw-1712736349.jpg")
+}
+h1{
+  color: Blue
+}
+input{
+  background: grey;
+}
+label{
+  color: red;
+}

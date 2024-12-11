@@ -1,0 +1,14 @@
+td{
+  height: 50px;
+  width: 50px;
+}
+#black{
+  background: black;
+}
+#white{
+  background: white;
+}
+table{
+  border: 2px groove green;
+  margin: auto;
+}

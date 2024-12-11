@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <h1>All fields are mandatory</h1>
+    <form action="result.html">
+      <label for="name">Name:</label>
+      <input type="text" name="" placeholder="Enter name" id = "name" pattern=".{4,15}" title="minimum 4 characters to maximum 15 characters" required><br><br>
+      <label for="mail">Email:</label>
+      <input type="text" name="" placeholder="Enter mail" id = "mail" required><br>
+      <h1>Select your home type:</h1>
+      <select>
+        <option value="select">Select option</option>
+        <option value="apt">Apartment</option>
+        <option value="villa">Villla</option>
+        <option value="dh">Duplex house</option>
+        <option value="rh">Residential house</option>
+      </select><br>
+      <h1>Which facing You want:</h1>
+      <select>
+        <option value="select">Select option</option>
+        <option value="e">East</option>
+        <option value="w">West</option>
+        <option value="n">North</option>
+        <option value="s">South</option>
+        <option value="ne">Northeast</option>
+        <option value="nw">Northwast</option>
+        <option value="se">Sotheast</option>
+        <option value="sw">Southwest</option>
+      </select>
+      <h1>How many Bhk needed:</h1>
+      <select>
+        <option value="select">Select option</option>
+        <option value="o">1bhk</option>
+        <option value="t">2bhk</option>
+        <option value="th">3bhk</option>
+      </select>
+      <h1>Do you need car parking:</h1>
+      <input type="radio" name="need" value="car parking">Yes
+      <input type="radio" name="need" value="car parking">No
+      <h1>Interior work needed</h1>
+      <input type="radio" name="select" value="Maintanance">Yes
+      <input type="radio" name="select" value="Maintanance">No<br><br>
+      <p>Your's valuable feedback</p>
+      <textarea name="feedback" rows="8" cols="80" placeholder="Feedback(Optional)"></textarea><br>
+      <input type="checkbox" name="" value="policy" required>Accept the privacy policy.<br><br>
+      <input type="submit" name="" value="Proceed">
+    </form>
+  </body>
+</html>

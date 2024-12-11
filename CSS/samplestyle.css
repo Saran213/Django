@@ -1,0 +1,33 @@
+body{
+  background: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Specialh1{
+  color: rgb(35, 35, 94);
+  background: red;
+  background-size: auto;
+}
+.Specialclass{
+  color: rgba(0, 0, 0, 1.0);
+}
+img{
+  /*
+  border-color: blue;
+  border-width: 20px;
+  border-style: groove;
+  */
+  border-left: green 20px inset;
+}
+p{
+  color: white;
+}
+h2{
+  color: orange;
+}
+ul{
+  color: green;
+}
+h3{
+  color: red;
+}

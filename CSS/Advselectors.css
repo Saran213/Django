@@ -1,0 +1,20 @@
+/*Star selector*/
+*{
+  background: yellow;
+}
+/*Descendent selector*/
+li a{
+  background: red;
+  color: green;
+}
+/*Adjacent selector*/
+h1 + a + ul{
+  color: red;
+}
+/*Attribute selector*/
+a[href="http://google.com"]{
+  color: #34c0eb;
+}
+ul:nth-of-type(2){
+  color: #34c0eb
+}

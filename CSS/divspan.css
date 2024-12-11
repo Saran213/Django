@@ -1,0 +1,8 @@
+#super{
+  background: red;
+  color: green;
+  border: blue 10px groove;
+}
+span{
+  background: yellow;
+}
